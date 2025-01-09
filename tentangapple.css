@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    height: 40px;
+}
+
+.header nav {
+    display: flex;
+    align-items: center;
+}
+
+.header nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+.header nav a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+.header img {
+    margin-top: 5px;
+}
+
+/* tentang apple */
+.ttg-apple {
+    padding: 50px;
+    margin-left: 40px;
+}
+
+.ttg-apple h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.ttg-apple p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* footer */
+/* Reset default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px ;
+  }
+  
+  .footer-column {
+    margin: 50px;
+    min-width: 150px; /* Minimal lebar kolom */
+  }
+  
+  .footer-column h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 8px;
+    font-size: 15px;
+  }
+  
+  .footer-column ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer-column ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .partner-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .partner-section img {
+    width: 100px;
+    margin: 10px 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-column {
+        margin-bottom: 20px;
+    }
+  }
+  
+  
+  .sosial-media {
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .sosial-media h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .sosial-media svg {
+    margin: 10px;
+    justify-content: center;
+  }
+
+  .footer-bawah {
+    text-align: center; 
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    padding: 20px 0;
+    font-size: 14px;
+    margin-bottom: 0 50px;
+  }
